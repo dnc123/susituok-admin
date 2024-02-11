@@ -1,3 +1,6 @@
 [submodule "src/SDK"]
 	path = src/SDK
 	url = git@github.com:dnc123/susituok-sdk.git
+[submodule "src/helpers"]
+	path = src/helpers
+	url = git@github.com:dnc123/helpers.git
