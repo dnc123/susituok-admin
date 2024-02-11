@@ -7,7 +7,6 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     ModalViewActivityContacts: typeof import('./src/components/ViewActivity/ModalViewActivityContacts.vue')['default']
     ModalViewActivityDates: typeof import('./src/components/ViewActivity/ModalViewActivityDates.vue')['default']
     ModalViewActivityLocation: typeof import('./src/components/ViewActivity/ModalViewActivityLocation.vue')['default']
@@ -15,14 +14,7 @@ declare module 'vue' {
     ModalViewActivityPayments: typeof import('./src/components/ViewActivity/ModalViewActivityPayments.vue')['default']
     Navigation: typeof import('./src/components/Navigation.vue')['default']
     Page: typeof import('./src/components/Page.vue')['default']
-    Payments: typeof import('./src/components/ViewActivity/Payments.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Test: typeof import('./src/components/Test.vue')['default']
-    ViewActivityContacts: typeof import('./src/components/ViewActivity/ViewActivityContacts.vue')['default']
-    ViewActivityDates: typeof import('./src/components/ViewActivity/ViewActivityDates.vue')['default']
-    ViewActivityLocation: typeof import('./src/components/ViewActivity/ViewActivityLocation.vue')['default']
-    ViewActivityNotes: typeof import('./src/components/ViewActivity/ViewActivityNotes.vue')['default']
-    ViewActivityPayments: typeof import('./src/components/ViewActivity/ViewActivityPayments.vue')['default']
   }
 }

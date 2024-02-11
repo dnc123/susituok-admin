@@ -5,7 +5,9 @@
  */
 
 // Composables
+// @ts-ignore
 import { createRouter, createWebHistory } from 'vue-router/auto'
+// @ts-ignore
 import { setupLayouts } from 'virtual:generated-layouts'
 
 const router = createRouter({
